@@ -24,7 +24,7 @@ char *gd_strdup(char const *s1)
 }
 
 int main(void){
-    char *s1 = "Myriam";
+    char *s1 = "Test";
     char *s2 = gd_strdup(s1);
     printf("%s\n", s2);
     free(s2);

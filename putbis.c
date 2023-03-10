@@ -25,7 +25,7 @@ int gd_strlen(char *str) {
 }
 
 int main(void) {
-    char *str = "Coucou";
+    char *str = "Test";
     int len = gd_strlen(str);
     printf("La longueur de la chaine '%s' est : %d\n", str, len);
     return 0;
